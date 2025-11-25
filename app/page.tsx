@@ -1,20 +1,18 @@
-import Navigation from '@/components/Navigation'
-import Hero from '@/components/Hero'
-import Services from '@/components/Services'
-import Testimonials from '@/components/Testimonials'
-import Pricing from '@/components/Pricing'
-import ContactForm from '@/components/ContactForm'
-import Footer from '@/components/Footer'
+import HeroSection from '@/components/hero-section'
+import Features from '@/components/features'
+import Testimonials from '@/components/testimonials'
+import Pricing from '@/components/pricing'
+import Contact from '@/components/contact'
+import Footer from '@/components/footer'
 
 export default function Home() {
   return (
     <main>
-      <Navigation />
-      <Hero />
-      <Services />
+      <HeroSection />
+      <Features />
       <Testimonials />
       <Pricing />
-      <ContactForm />
+      <Contact />
       <Footer />
     </main>
   )
